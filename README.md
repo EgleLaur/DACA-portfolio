@@ -38,5 +38,5 @@ SOOVITUS TOOMASELE : Andmete korrastamine: Toomas peab esimesel võimalusel loom
 
 PUUDUVAD ANDMED : Meil puudus stores andmetega tabel.
 
-git commit -m "Minu esimene muudatus CMD-st
+
 
