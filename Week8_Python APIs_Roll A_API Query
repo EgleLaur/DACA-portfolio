@@ -1,0 +1,31 @@
+## 🚀 Roll A: API Query (Andmete pärimine)
+
+
+Selle nädala ülesandeks oli luua Pythoni funktsioonid UrbanStyle OÜ andmete automaatseks pärimiseks Supabase API-st. Eesmärk oli luua töökindel andmetorustik, mis valmistab andmed ette edasiseks analüüsiks.
+
+### 📋 Ülesande kirjeldus
+* **Eesmärk:** Päringute tegemine Supabase andmebaasi, et kätte saada müügi-, kliendi- ja tooteandmed.
+* **Sisend:** `supabase-py` klient, turvaline `.env` fail API tunnustega (URL ja Key).
+* **Väljund:** Skript `data_fetcher.py`, mis sisaldab kolme põhilist andmete pärimise funktsiooni.
+
+---
+
+### 💻 Teostatud sammud
+
+1. **Keskkonna seadistamine:** Imporditud vajalikud teegid (`pandas`, `supabase`, `dotenv`). Loogitud Supabase kliendiga sisse, kasutades `.env` failist laetud salajasi tunnuseid (turvalisuse tagamiseks).
+2. **Müügiandmete pärimine:** Loodud funktsioon `fetch_sales(start_date, end_date)`, mis võimaldab andmeid filtreerida kuupäevavahemiku alusel otse API päringus. Tulemus tagastatakse puhta Pandas `DataFrame` kujul.
+3. **Klientide ja toodete pärimine:** Kirjutatud analoogsed funktsioonid `fetch_customers()` and `fetch_products()` kogu kliendibaasi ja tootekataloogi allalaadimiseks.
+4. **Veakäsitlus:** Igale funktsioonile on lisatud `try/except` plokk, mis püüab kinni võimalikud võrguvead või vigased API võtmed ning annab kasutajale selge veateate.
+5. **Testimine:** Koodi kontrolliks käivitatud testpäringud VS Code terminalis, mis kuvasid edukalt tabelite ridade arvud ja esimesed read (`.head()`).
+
+---
+
+### 🔍 Kvaliteedikontroll & Tulemused
+
+- [x] **Tööriistad valmis:** Kõik kolm funktsiooni tagastavad korrektsed Pandas DataFrame'id (andmed ei ole tühjad).
+- [x] **Turvalisus ja veakäsitlus:** Testitud vale API võtmega – programm ei jookse kokku, vaid annab selge ja arusaadava veateate.
+- [x] **Paindlikkus:** Müügiandmete funktsioon filtreerib edukalt andmeid sisestatud kuupäevade põhjal, vähendades API koormust.
+
+#### 🖥️ VS Code terminali väljund (Edukas testimine):
+Siin on näha testkäivituse tulemus, kus nii müügi- kui ka kliendiandmed (kumbki 1000 rida) laeti edukalt API-st Pandas DataFrame'i:
+
