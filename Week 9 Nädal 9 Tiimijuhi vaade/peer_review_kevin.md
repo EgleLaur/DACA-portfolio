@@ -54,3 +54,4 @@ Käesolev dokument on kirjalik tagasiside (*peer review*) andmetiimi liikme **Ke
 - [x] Tagasiside on tasakaalustatud (tugevused + arengukohad olemas)
 - [x] Hinnatud on koostöö, kommunikatsioon ja iseseisvus
 - [x] Värbamissoovitus on argumenteeritult põhjendatud
+
