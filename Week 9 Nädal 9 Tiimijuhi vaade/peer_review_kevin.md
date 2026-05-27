@@ -7,7 +7,7 @@
 ---
 
 ## 1. Üldvaade ja Sissejuhatus
-Käesolev dokument on kirjalik tagasiside (*peer review*) andmetiimi liikme **Kevin Rattasepp** kohta, tuginedes tema GitHubi portfooliole (`daca-portfolio`) ja 8-nädalasele koostöökogemusele UrbanStyle projektis. Hindamise eesmärk on analüüsida spetsialisti potentsiaali ja anda lõplik värbamissoovitus.
+Käesolev dokument on kirjalik tagasiside (*peer review*) andmetiimi liikme **Kevin Rattasepp** kohta, tuginedes tema GitHubi portfooliole ja 8-nädalasele koostöökogemusele UrbanStyle projektis. Hindamise eesmärk on analüüsida spetsialisti potentsiaali ja anda lõplik värbamissoovitus.
 
 ---
 
