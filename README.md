@@ -3,7 +3,7 @@
 Welcome to my data analytics portfolio! This repository brings together the projects, practical assignments, and growth from my intensive learning journey within the Data Analyst Career Accelerator (DACA) program.
 
 ##  Programm
-* **Participant:** Egle Laur
+* **Participant:** Emma Sofia Laur
 * **Program:** Data Analyst Career Accelerator (DACA)
 * **Start Date:** 24.03.2026
  **Objective**: Achieving deep data literacy, technical skills, and business readiness through real-world data projects
