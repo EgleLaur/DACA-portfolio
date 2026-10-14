@@ -44,8 +44,8 @@ The projects in this repository are based on the UrbanStyle retail business-simu
 
 I am open to new opportunities, internships, and data-related discussions. 
 
-* **GitHub:** [github.com/EgleLaur](https://github.com/EgleLaur)
-* **Email:** lauregle@gmail.com
+* **GitHub:** 
+* **Email:** lauremmasofia@gmail.com
 
 
 
